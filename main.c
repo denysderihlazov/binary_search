@@ -45,7 +45,7 @@ int strCompare(char *str1, char *str2) {
             return 0;
         }
     }
-    return 1; //In contrast to strcmp(), my function returns 1 when strings are identical.
+    return 1; // In contrast to strcmp(), my function returns 1 when strings are identical.
 }
 
 int binarySearch(int *numbers, int arrSize, int searchable)
@@ -73,7 +73,7 @@ int binarySearch(int *numbers, int arrSize, int searchable)
         }
     }
 
-    return -1;
+    return -1; // -1 means out of array
 }
 
 int main(int argc, char *argv[])
@@ -96,5 +96,3 @@ int main(int argc, char *argv[])
 
     return 0;
 }
-
-// Add the possibility to search for negative numbers
